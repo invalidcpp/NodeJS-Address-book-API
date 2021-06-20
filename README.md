@@ -1,6 +1,6 @@
 # NodeJS-Address-book-API
 
- ### A small project that uses NodeJS, Express, and serverless to create an API for an address book That runs off of AWS Lambda. The database will containing user information like: Name, Company, Address, Phone Number, Email Address, Notes.
+A small project that uses NodeJS, Express, and serverless to create an API for an address book That runs off of AWS Lambda. The database will containing user information like: Name, Company, Address, Phone Number, Email Address, Notes.
 
 # Dependencies
 - NodeJS
