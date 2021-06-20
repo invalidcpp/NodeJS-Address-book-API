@@ -2,7 +2,6 @@ service: AddressBook-test
 plugins:
   - serverless-dotenv-plugin
 provider:
-  role: arn:aws:iam::044265225265:role/lambda-vpc-role
   name: aws
   runtime: nodejs12.x
   stage: dev
