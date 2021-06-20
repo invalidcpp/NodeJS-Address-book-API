@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-address-book-api",
+  "version": "1.0.0",
+  "description": "An API for an address book stored on an SQL Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Jordan James",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-http": "^2.7.0"
+  }
+}

@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    --bg-color: #1c1c1c;
+    background-color: var(--bg-color);
+    --text-color: #f6e8ea;
+    color: var(--text-color) !important;
+    --main-color: #F45869;
+}
+
+.buttons {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 100;
+    margin: 20px;
+    background-color: transparent;
+}
+
+.btn-custom {
+    background-color: var(--main-color) !important;
+    color: var(--text-color) !important;
+}
+
+.modal {
+    color: black !important;
+}
+
+.errorMsg {
+    color: red;
+    display: none;
+}
+
+tr > td {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+}
+
+table.dataTable tbody tr.selected td {
+    background-color: var(--main-color) !important;
+}
+
+.popup-search {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    transition: all ease 0.3s;
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 50px;
+}
+
+.popup-search input {
+    width: 90%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
